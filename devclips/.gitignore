@@ -1,0 +1,12 @@
+@'
+.venv/
+.env
+__pycache__/
+*.pyc
+storage/downloads/*
+storage/transcripts/*
+storage/clips/*
+storage/cropped/*
+storage/exports/*
+remotion/node_modules/
+'@ | Set-Content .gitignore
